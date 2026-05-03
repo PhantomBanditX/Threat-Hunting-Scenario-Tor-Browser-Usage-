@@ -169,4 +169,4 @@ The user "br00klyn" on the "cyberclaw-vm" device initiated and completed the ins
 
 ## Response Taken
 
-TOR usage was confirmed on the endpoint `wutang` by the user `methodman`. The device was isolated, and the user's direct manager was notified.
+TOR usage was confirmed on the endpoint `cyberclaw-vm` by the user `br00klyn`. The device was isolated, and the user's direct manager was notified.
