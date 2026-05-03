@@ -143,9 +143,8 @@ DeviceNetworkEvents
 ### 5. Additional Network Connections – TOR Browser Activity
 
 - **Timestamps:**
-  - `2026-01-06T21:20:55Z` – Multiple Tor relay connections on port `9001`
-  - `2026-01-06T21:21:07Z` – Encrypted Tor traffic on port `443`
-  - `2026-01-06T21:20:47Z` – Local proxy activity on `127.0.0.1:9150`
+  - `2026-05-02T22:10:32.7027669Z` – Encrypted Tor traffic on port `443`
+  - `2026-05-02T22:20:14.3367733Z` – Local proxy activity on `127.0.0.1 Port: 9150`
 - **Event:** Additional TOR network connections were established, indicating ongoing activity by user `br00klyn` through the TOR browser.
 - **Action:** Multiple successful connections detected.
 
@@ -153,7 +152,7 @@ DeviceNetworkEvents
 
 ### 6. File Creation – TOR Shopping List
 
-- **Timestamp:** `2026-01-06T21:18:19.0000000Z`
+- **Timestamp:** `2026-05-02T22:51:50.5531281Z`
 - **Event:** The user `br00klyn` created a file named `tor-shopping-list.txt` on the desktop, potentially indicating a list or notes related to their TOR browser activities.
 - **Action:** File creation detected.
 - **File Path:** `C:\Users\br00klyn\Desktop\tor-shopping-list.txt`
