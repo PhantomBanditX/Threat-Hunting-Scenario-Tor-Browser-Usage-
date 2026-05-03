@@ -84,7 +84,7 @@ DeviceProcessEvents
 
 ### 4. Searched the `DeviceNetworkEvents` Table for TOR Network Connections
 
-Searched for any indication the TOR browser was used to establish a connection using any of the known TOR ports. At `2026-01-06T21:20:55.7751044Z`, an employee on the `cyberclaw-vm` device successfully established a connection to the remote IP address `145.239.41.102` on port `9001`. The connection was initiated by the process `tor.exe`, located in the folder `c:\users\br00klyn\desktop\tor browser\browser\torbrowser\tor\tor.exe`. There were a couple of other connections to sites over port `443`.
+Searched for any indication the TOR browser was used to establish a connection using any of the known TOR ports. At `2026-05-02T22:19:57.2588804Z`, an employee on the `cyberclaw-vm` device successfully established a connection to the remote IP address `145.239.41.102` on port `9001`. The connection was initiated by the process `tor.exe`, located in the folder `c:\users\br00klyn\desktop\tor browser\browser\torbrowser\tor\tor.exe`. There were a couple of other connections to sites over port `443`.
 
 **Query used to locate events:**
 
