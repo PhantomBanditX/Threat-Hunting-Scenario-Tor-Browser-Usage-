@@ -34,11 +34,11 @@ Searched for any file that had the string "tor" in it and discovered what looks 
 ```kql
 DeviceFileEvents  
 | where DeviceName == "cyberclaw-vm"  
-| where InitiatingProcessAccountName == "br00klyn"  
+| where InitiatingProcessAccountName == "br00klyn" 
 | where FileName contains "tor"  
-| where Timestamp >= datetime(2026-01-06T21:18:07.1084878Z) 
-| order by Timestamp desc  
+| where Timestamp >= datetime(2026-05-02T22:08:29.5939303Z)
 | project Timestamp, DeviceName, ActionType, FileName, FolderPath, SHA256, Account = InitiatingProcessAccountName
+| order by Timestamp desc 
 ```
 
 <img width="1077" height="420" alt="image" src="https://github.com/user-attachments/assets/7bb36bf8-1365-4fce-9966-0e01556b3a93" />
