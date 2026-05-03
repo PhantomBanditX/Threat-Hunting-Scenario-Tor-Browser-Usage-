@@ -55,7 +55,7 @@ Searched for any `ProcessCommandLine` that contained the string "tor-browser-win
 
 DeviceProcessEvents
 | where DeviceName == "cyberclaw-vm"
-| where ProcessCommandLine contains "tor-browser-windows-x86_64"
+| where ProcessCommandLine contains "tor-browser-windows-x86_64-portable"
 | project Timestamp,DeviceName, ActionType,FileName,FolderPath,SHA256,AccountName,ProcessCommandLine
 ```
 <img alt="Image" src="https://github.com/user-attachments/assets/81bfde0f-9f95-4e94-ab3c-1a5d06e12b70" />
