@@ -1,6 +1,6 @@
 # Threat Hunting Scenario (Tor Broswer Usage)
 
-<img src="https://phantombanditx.github.io/threat-hunting-scenario-tor/tor_browser_techy.svg" width="680"/>
+<p align="center"> <img src="https://phantombanditx.github.io/threat-hunting-scenario-tor/tor_browser_techy.svg" width="680"/> </p>
 
 # Threat Hunt Report: Unauthorized TOR Usage
 - [Scenario Creation](https://github.com/PhantomBanditX/threat-hunting-scenario-tor/blob/main/threat-hunting-scenario-tor-event-creation.md)
